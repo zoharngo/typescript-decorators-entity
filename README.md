@@ -29,5 +29,6 @@ id: string;
   @required
   @isEmail
   email: string;
-}```
+}
+```
 

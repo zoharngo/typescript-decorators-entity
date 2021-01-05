@@ -15,7 +15,7 @@ https://github.com/zoharngo/typescript-decorators-entity
 - Define validation rules per field for validation of objects 
 
 
-`@entity(“people”)
+```@entity(“people”)
 class Person {
   @id
 id: string; 
@@ -29,5 +29,5 @@ id: string;
   @required
   @isEmail
   email: string;
-} `
+} ```
 
